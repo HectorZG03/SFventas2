@@ -11,7 +11,7 @@ if(empty($_SESSION['usuario'])) header("location: login.php");
     <h3>Agregar usuario</h3>
     <form method="post">
         <div class="mb-3">
-            <label for="usuario" class="form-label">Nombre de usuario</label>
+            <label for="usuario" class="form-label">Mas nombres de los Usuarios</label>
             <input type="text" name="usuario" class="form-control" id="usuario" placeholder="Escribe el nombre de usuario">
         </div>
         <div class="mb-3">
